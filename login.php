@@ -14,7 +14,7 @@ if($_POST)
         $login = $query->rowCount();
         if($login > 0)
         {
-            $errormsg = "Login successful :)";
+            $errormsg = "Login successful ";
             $_SESSION["email"] = $email;
             header("Refresh: 2; url=index.php");
         }
