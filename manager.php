@@ -45,7 +45,7 @@ if($_GET)
 
 ?>
 <style>
-  
+   
   .header {
       position: relative;
       display: -ms-flexbox;
