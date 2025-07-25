@@ -3,6 +3,7 @@ require_once "manager.php";
 
 if($_POST)
 {
+    
     // POST 
     $username = $_POST["username"];
     $email = $_POST["email"];
